@@ -138,22 +138,22 @@ public:
  
     bool operator<(const dlin& second) const
     {
-        return number < second.number;
+        return false;
     }
  
     bool operator<=(const dlin& second) const
     {
-        return number <= second.number;
+        return false;
     }
  
     bool operator>(const dlin& second) const
     {
-        return number > second.number;
+        return false;
     }
  
     bool operator>=(const dlin& second) const
     {
-        return number >= second.number;
+        return false;
     }
  
     bool operator!=(const dlin& second) const
